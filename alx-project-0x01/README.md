@@ -1,40 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Next.js Web Application – Learning Project
 
-## Getting Started
+## 📘 Project Description
+This project is a comprehensive **Next.js** web application that demonstrates core concepts of modern web development. It features multiple pages for displaying posts and users, with interactive components for adding new content. Built using **TypeScript**, **Tailwind CSS**, and **Next.js**, it showcases best practices in component-based architecture, state management, and API integration.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Learning Objectives
+By completing this project, you will:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Set up a Next.js application with TypeScript and Tailwind CSS
+- Implement dynamic page routing and navigation
+- Create reusable React components with proper TypeScript typing
+- Work with external APIs to fetch and display data
+- Implement modal dialogs for user interaction
+- Understand static site generation with `getStaticProps`
+- Manage component state with React hooks
+- Structure a project with proper directory organization
+- Apply responsive design principles using Tailwind CSS
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## ⚙️ Requirements
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Technical Requirements
+- Node.js (v16 or later)
+- npm or yarn
+- Next.js (latest version)
+- TypeScript
+- Tailwind CSS
+- ESLint
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Functional Requirements
+1. **Base Application Setup**
+   - Create Next.js app with TypeScript, Tailwind CSS, and ESLint
+   - Configure folder structure and global styles
 
-## Learn More
+2. **Navigation System**
+   - Header with navigation links
+   - Routing between home, posts, and users pages
+   - Client-side navigation without reloads
 
-To learn more about Next.js, take a look at the following resources:
+3. **Posts Functionality**
+   - Display posts from JSONPlaceholder API
+   - `PostCard` component for individual posts
+   - `PostModal` for adding new posts
+   - Form handling and state management
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+4. **Users Functionality**
+   - Display users from JSONPlaceholder API
+   - `UserCard` component for user info
+   - `UserModal` for adding users
+   - Handle nested data structures
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✅ Best Practices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Component Architecture
+- Follow atomic design principles
+- Separate presentational and container components
+- Create reusable UI components (Button, Card, Modal)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Type Safety
+- Define TypeScript interfaces
+- Type all props and state
+- Handle event types correctly
+
+### Styling
+- Use Tailwind CSS utility classes
+- Maintain consistent spacing and typography
+- Implement responsive design
+
+### State Management
+- Use React hooks for local state
+- Lift state up when needed
+- Keep state minimal and focused
+
+### Project Structure
+- Organize components by feature/domain
+- Centralize interfaces
+- Follow Next.js conventions for pages
+
+---
+
+## 🛠️ Implementation Notes
+- Uses JSONPlaceholder as a mock API
+- Static generation (`getStaticProps`) for initial data fetching
+- Modals demonstrate interactive UI patterns
+- TypeScript ensures type safety
+- Tailwind CSS provides utility-first styling
+
+---
+
+## 📁 Project Structure
+
